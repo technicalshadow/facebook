@@ -8,7 +8,6 @@
 
 import sys
 import random
-import mechanize
 import cookielib
 
 
@@ -76,6 +75,7 @@ def check():
 
     global br
     global passwords
+    global mechanize
     try:
        br = mechanize.Browser()
        cj = cookielib.LWPCookieJar()
